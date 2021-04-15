@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+.main-hr{
+    margin-top: 120px;
+    width: 40%;
+    color: grey;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.main-head{
+   text-align: center;
+   background-color: white;
+   position: relative;
+   bottom: 65px;
+   width: 20%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.flex-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.child-1{
+    background-color: #E74C3C;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.arrow{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#back-text{
+    font-size: 25px;
+    color: grey;
+    margin-left: 20px;
+}
+
+h2{
+    font-weight: 300;
+    color: #E74C3C;
+}
+
+.card{
+    width: 25%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid #E74C3C;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 10px 10px #DADADA;
+}
+
+.strike-text{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 120px;
+    color: #E74C3C;
+    text-decoration: line-through;
+}
+
+.sub-hr{
+    margin-left: 110px;
+    color: #D5D5D5;
+}
+
+.plus-div{
+    background-color: #E74C3C;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 330px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    font-weight: 300;
+}
+
+.pending-text{
+    display: inline-block;
+    font-size: 20px;
+    color: grey;
+    padding-right: 30px;
+}
